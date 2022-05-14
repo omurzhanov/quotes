@@ -1,15 +1,3 @@
-# Name:  
-# Student Number:  
-
-# This file is provided to you as a starting point for the "admin.py" program of the Project
-# of Programming Principles in Semester 1, 2022.  It aims to give you just enough code to help ensure
-# that your program is well structured.  Please use this file as the basis of your work.
-# You are not required to reference it.
-
-# The "pass" command tells Python to do nothing.  It is simply a placeholder to ensure that the starter file runs smoothly.
-# They are not needed in your completed program.  Replace them with your own code as you complete the assignment.
-
-
 # Import the necessary module(s).
 import textwrap
 import json
@@ -43,7 +31,7 @@ def save_data(data_list):
 
 
 # Here is where we define function to check if data is empty.
-# If the data is empty we do same thing always, so I defined function to follow DRY principle.
+# If the data is empty we do same thing always, we define function to follow DRY principle.
 def is_data_empty(data):
     if data == []:
         print("There are no quotes saved.")
